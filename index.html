@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React Transform Boilerplate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
+
+<!-- 如果想修改gh-pages分支的话
+  在这里修改好之后,然后打包 npm run build
+  把 dist 文件拿出来,
+  做一个版本, add   coimmit  push
+  然后切换分支  git checkout gh-pages
+  删掉以前的dist 把新的拿进来,
+  做版本, add   commit     push
+  切回来一样 就是切换分支,git checkout master
+  git log 可以查看本地仓库的提交历史
+
+  git branch查看分支
+
+  git branch“分支名称” 创建一个新的分支
+
+  git checkout“分支名称” 切换分支
+
+  git checkout -b deeveloper 他健并切到developer分支
+
+
+
+新安装器  yarn
+  imooc 课程
+
+yarn 的安装、使用
+
+1.安装
+
+$npm install -g yarn
+$yarn -V
+$yarn help COMMAND
+2.初始化项目
+
+$yarn init #初始化项目，生成package.json
+3.安装模块
+
+$yarn add [packagename] #模块会安装到项目下node_modules文件夹下，同时生成yarn.lock，记录这个模块的所有依赖。同时 package.json 的 `dependencies` 字段会记录这个包（默认是这里）,即yarn add =npm i --save
+$yarn help add #查看 add 的所有可选参数，yarn add -D==npm -D i
+$yarn add [packagename] --offline #从本地安装这个模块，现在是个bug
+4.更新模块
+
+$yarn upgrade [packagename]
+5.查看本地安装的模块的缓存
+
+$yarn cache ls #查看项目内的缓存依赖
+$yarn cache dir #查看 yarn 在本地上的缓存位置
+$yarn cache clean #清除项目内的缓存
+6.安装项目内所有依赖的模块
+
+$yarn install
+$yarn
+7.删除模块
+
+$yarn remove [packagename]
+8.yarn 脚本
+
+# package.json
+{
+  "scripts": {
+    "ver": "node -v"
+  }
+}
+$yarn run ver
+8.全局
+
+$yarn global ls/add
+ -->
